@@ -71,6 +71,6 @@ services/customised-services-microdata/microdata-conducting-your-own-research.
 
 **Input data for scripts that are not publicly available:**
 
-Development_cohort.csv (primary care cohort file of development cohort)
-Validation_cohort.csv (primary care cohort file of validation cohort)
-Data on hospitalization (DHD registry) and mortality (CBS microdata registry)
+- Development_cohort.csv (primary care cohort file of development cohort)
+- Validation_cohort.csv (primary care cohort file of validation cohort)
+- Data on hospitalization (DHD registry) and mortality (CBS microdata registry)
