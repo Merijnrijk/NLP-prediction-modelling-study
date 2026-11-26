@@ -1,8 +1,11 @@
 # NLP-prediction-modelling-study
-R scripts of prediction model development and external validation study to assess the incremental predictive value of NLP-derived signs and symptoms for predicting 30-day all-cause hospitalization or mortality in patients aged ≥40 years presenting to general practice with lower respiratory tract infections.
+R scripts of prediction model development and external validation study to assess the incremental predictive value of NLP-derived signs and symptoms for predicting 
+30-day all-cause hospitalization or mortality in patients aged ≥40 years presenting to general practice with lower respiratory tract infections.
 
 **Elaborate information**
-This repository contains R scripts that were used in a prediction model development and external validation study among patients aged ≥40 years presenting to general practice with a lower respiratory tract infection (LRTI). This study assesses the incremental predictive value of natural language processing (NLP-)derived signs and symptoms for predicting 30-day all-cause hospitalization or mortality.
+This repository contains R scripts that were used in a prediction model development and external validation study among patients aged ≥40 years presenting to general 
+practice with a lower respiratory tract infection (LRTI). This study assesses the incremental predictive value of natural language processing (NLP-)derived signs and 
+symptoms for predicting 30-day all-cause hospitalization or mortality.
 
 The publication of the study can be found via this link: (to be determined, currently submitted)
 
@@ -21,10 +24,14 @@ The publication of the study can be found via this link: (to be determined, curr
 **Cohorts derivation:**
 Model development: derived from the Julius General Practitioners' Network (JGPN) from the region of Utrecht, the Netherlands. Period: 2016 - 2019.
 Model validation: derived from the Academic Network of General Practitioners Amsterdam (ANHA) from the region of Amsterdam, the Netherlands. Period: 2022 - 2023.
-Statistical methods: Stepwise model development and external validation using elastic net penalized logistic regression. Four models were developed: basic model (age, sex, interaction term), basic + NLP model (basic + NLP-derived signs and symptoms), extended model (basic model + cardiometabolic diseases, other medical history, medication use, and LRTI diagnosis code), and extended + NLP model (full model + NLP-derived signs and symptoms).
+Statistical methods: Stepwise model development and external validation using elastic net penalized logistic regression. Four models were developed: basic model (age, sex, 
+interaction term), basic + NLP model (basic + NLP-derived signs and symptoms), extended model (basic model + cardiometabolic diseases, other medical history, medication 
+use, and LRTI diagnosis code), and extended + NLP model (full model + NLP-derived signs and symptoms).
 
 **Statistical analysis:**
-All models were internally validated by bootstrapping (1,000 samples). Subsequently, all models were externally validated in the ANHA cohort. Model performance was assessed and compared based on measures of discrimination (c-statistic), calibration (intercept and slope), distribution of predicted risks, and decision-curve analysis (upon external validation).
+All models were internally validated by bootstrapping (1,000 samples). Subsequently, all models were externally validated in the ANHA cohort. Model performance was assessed 
+and compared based on measures of discrimination (c-statistic), calibration (intercept and slope), distribution of predicted risks, and decision-curve analysis (upon 
+external validation).
 
 **Information on R scripts published on this repository:**
 'Coefficients_final_model.csv' - csv-file containing predictor vales and full-precision coefficients of the final model
@@ -43,7 +50,15 @@ Run '2. Linkage_datacleaning_ANHA_CBS'
 ...tbd
 
 **Data availability**
-The data that was used for this study is derived from the Dutch general practice registries (JGPN and ANHA), hospital registry (DHD), and the national mortality registry (CBS). Since these registries hold pseudonymised data on individual patients, access to these data is restricted and has been granted under license of this study. While metadata of the ELEMENT project have been published online via DataverseNL (https://doi.org/10.34894/UYHI95) and on this repository, the datasets cannot be made publicly available. Data are only available from the authors upon reasonable request and after formal permission of the respective registries (with further terms and conditions described in the DataverseNL metadata record of the ELEMENT project). Permission to access JGPN data can be requested at: https://www.juliushuisartsennetwerk.nl/onderzoekers/data-aanvraag-doen/. Permission to access ANHA data can be requested at: https://www.vumc.nl/zorg/informatie-voor-professionals/huisartsgeneeskunde-amsterdam-umc/academische-werkplaats-huisartsenzorg-amsterdam-noord-holland-almere/anha-informatie-voor-patienten.html. For DHD and CBS data specifically, these data are accessible for statistical and scientific research under certain conditions. For further information: https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research.
+The data that was used for this study is derived from the Dutch general practice registries (JGPN and ANHA), hospital registry (DHD), and the national mortality registry 
+(CBS). Since these registries hold pseudonymised data on individual patients, access to these data is restricted and has been granted under license of this study. While 
+metadata of the ELEMENT project have been published online via DataverseNL (https://doi.org/10.34894/UYHI95) and on this repository, the datasets cannot be made publicly 
+available. Data are only available from the authors upon reasonable request and after formal permission of the respective registries (with further terms and conditions 
+described in the DataverseNL metadata record of the ELEMENT project). Permission to access JGPN data can be requested at: 
+https://www.juliushuisartsennetwerk.nl/onderzoekers/data-aanvraag-doen/. Permission to access ANHA data can be requested at: https://www.vumc.nl/zorg/informatie-voor-
+professionals/huisartsgeneeskunde-amsterdam-umc/academische-werkplaats-huisartsenzorg-amsterdam-noord-holland-almere/anha-informatie-voor-patienten.html. For DHD and CBS 
+data specifically, these data are accessible for statistical and scientific research under certain conditions. For further information: https://www.cbs.nl/en-gb/our-
+services/customised-services-microdata/microdata-conducting-your-own-research.
 
 **Input data for scripts that are not publicly available:**
 Development_cohort.csv (primary care cohort file of development cohort)
