@@ -50,6 +50,7 @@ Run '2. Linkage_datacleaning_ANHA_CBS'
 ...tbd
 
 **Data availability**
+
 The data that was used for this study is derived from the Dutch general practice registries (JGPN and ANHA), hospital registry (DHD), and the national mortality registry 
 (CBS). Since these registries hold pseudonymised data on individual patients, access to these data is restricted and has been granted under license of this study. While 
 metadata of the ELEMENT project have been published online via DataverseNL (https://doi.org/10.34894/UYHI95) and on this repository, the datasets cannot be made publicly 
