@@ -49,13 +49,13 @@ external validation).
 
 **Clean session execution procedure in R:**
 
-Apply for access to the respective data registries (JPGN, ANHA, DHD, and CBS - see 'availability of data' below)
-Work within the secured remote research environment of CBS microdata
-Open R script 1-5 in a clean R session
-Check whether R and package versions are similar to those reported in script 0 ('R and package versions') on this repository
-Run '1. Linkage_datacleaning_JGPN_CBS'
-Run '2. Linkage_datacleaning_ANHA_CBS'
-...tbd
+- Apply for access to the respective data registries (JPGN, ANHA, DHD, and CBS - see 'availability of data' below)
+- Work within the secured remote research environment of CBS microdata
+- Open R script 1-5 in a clean R session
+- Check whether R and package versions are similar to those reported in script 0 ('R and package versions') on this repository
+- Run '1. Linkage_datacleaning_JGPN_CBS'
+- Run '2. Linkage_datacleaning_ANHA_CBS'
+- ...tbd
 
 **Data availability**
 
