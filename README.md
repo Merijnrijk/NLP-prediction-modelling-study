@@ -41,11 +41,11 @@ external validation).
 
 **Information on R scripts published on this repository:**
 
-'Coefficients_final_model.csv' - csv-file containing predictor vales and full-precision coefficients of the final model
-'0. R and package versions'
-'1. Linkage_datacleaning_JGPN_CBS' - Script for linkage of JGPN primary care cohort to CBS hospitalization and mortality data, including datacleaning
-'2. Linkage_datacleaning_ANHA_CBS' - Script for linkage of ANHA primary care cohort to CBS hospitalization and mortality data, including datacleaning
-... tbd
+- 'Coefficients_final_model.csv' - csv-file containing predictor vales and full-precision coefficients of the final model
+- '0. R and package versions'
+- '1. Linkage_datacleaning_JGPN_CBS' - Script for linkage of JGPN primary care cohort to CBS hospitalization and mortality data, including datacleaning
+- '2. Linkage_datacleaning_ANHA_CBS' - Script for linkage of ANHA primary care cohort to CBS hospitalization and mortality data, including datacleaning
+- ... tbd
 
 **Clean session execution procedure in R:**
 
